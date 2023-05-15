@@ -1,0 +1,14 @@
+site:
+  title: "YoutubeEg"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/youtubeeg.js"
+      api: "build/libs/youtubeeg.jar"
+    prod:
+      script: "build/distributions/youtubeeg.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
